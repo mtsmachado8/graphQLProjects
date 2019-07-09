@@ -1,0 +1,24 @@
+{
+  "name": "graphqlprojects",
+  "version": "1.0.0",
+  "description": "A repository for all my basic GraphQL Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtsmachado8/graphQLProjects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtsmachado8/graphQLProjects/issues"
+  },
+  "homepage": "https://github.com/mtsmachado8/graphQLProjects#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "lodash": "^4.17.11"
+  }
+}
