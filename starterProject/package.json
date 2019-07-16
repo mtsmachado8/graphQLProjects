@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A repository for all my basic GraphQL Projects",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --experimental-modules -r esm server.js",
+    "json:server": "json-server --watch db.json"
   },
   "repository": {
     "type": "git",
@@ -17,8 +19,16 @@
   },
   "homepage": "https://github.com/mtsmachado8/graphQLProjects#readme",
   "dependencies": {
+    "axios": "^0.19.0",
+    "esm": "^3.2.25",
     "express": "^4.17.1",
     "express-graphql": "^0.8.0",
-    "lodash": "^4.17.11"
+    "graphql": "^14.4.2",
+    "json-server": "0.9.4",
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
